@@ -23,7 +23,7 @@ public class Client {
 
 
             String response = reader.readLine();             // здесь циклом while (reader.ready()) почему-то не получалось и я чтобы побыстрее сделать
-            System.out.println(response);                    // сделал вот так вот криво и косо, но это просто вывод 4 строк, так что пох
+            System.out.println(response);                    // сделал вот так вот криво и косо, но это просто вывод 4 строк
             response = reader.readLine();
             System.out.println(response);
             response = reader.readLine();
